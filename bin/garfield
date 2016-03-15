@@ -3,4 +3,3 @@
 require 'garfield'
 
 Garfield::GuardfileGenerator.start
-puts "Hello, world!"

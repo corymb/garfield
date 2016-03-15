@@ -16,7 +16,9 @@ module Garfield
     http://stackoverflow.com/a/12785204
     HELLO_WORLD
     def generate()
-      puts 'What upppppp.'
+      extension = Garfield.get_file_count('rb') < Garfield.get_file_count('py') ? 'py' : 'rb'
+      test_string = Garfield.get_test_string(extension)
+      Garfield.write_guardfile(extension, test_string)
     end
   end
 end
