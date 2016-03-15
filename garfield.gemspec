@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["github@david-bush.co.uk"]
 
   spec.summary       = %q{Garfield generates inspects your environment and generates a basic Guardfile.}
-  spec.description   = %q{Garfield generates a Guardfile based on your dependencies. Also works for Python!}
+  spec.description   = %q{Garfield generates a Guardfile based on your dependencies. Also works for Python projects!}
   spec.homepage      = "https://github.com/disavowd/garfield"
   spec.license       = "MIT"
 
@@ -30,6 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-
   spec.add_dependency('thor')
 end
